@@ -67,8 +67,7 @@ php artisan serve
 npm install
 npm run dev
 
-📌 Este proyecto forma parte de mi portfolio personal y está enfocado a demostrar
-capacidades frontend aplicadas a un producto real.
+📌 Este proyecto forma parte de mi portfolio personal y está enfocado a demostrar capacidades frontend aplicadas a un producto real.
 
 ## 🖼️ Capturas del proyecto
 
@@ -82,18 +81,23 @@ capacidades frontend aplicadas a un producto real.
 
 ---
 
-### Contenido público
-![Contenido público](docs/images/03-public-content.png)
-
----
-
-### Panel de administración
-![Panel admin](docs/images/04-admin-panel.png)
+### Filtros por estado (disponible / reservado / entregado)
+![Filtros cachorros alternos](docs/images/03-cachorros-filtro2.png)
 
 ---
 
 ### Vista móvil
-![Vista móvil](docs/images/05-mobile.png)
+![Vista móvil](docs/images/04-mobile.png)
+
+---
+
+### Contenido público completo
+![Contenido público](docs/images/05-public-content.png)
+
+---
+
+### Panel de administración
+![Panel admin](docs/images/06-admin-panel.png)
 
 
 © 2026 · Claudia
