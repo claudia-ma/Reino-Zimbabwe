@@ -1,42 +1,44 @@
 # Reino Zimbabwe
 
-Reino Zimbabwe es un proyecto frontend creativo integrado en un backend real, enfocado en **diseño visual, interacción y experiencia de usuario**.
+Reino Zimbabwe es un proyecto **frontend con backend real**, diseñado como un producto completo para un criadero familiar de chihuahuas.
 
-El objetivo del proyecto es explorar una estética fuerte y narrativa visual, aplicando código frontend moderno dentro de una estructura profesional.
+El proyecto pone el foco en **experiencia de usuario, diseño visual e interacciones**, integradas dentro de una arquitectura Laravel funcional, con panel de administración y estados reales.
 
 ---
 
 ## ✨ Qué demuestra este proyecto
 
 - Diseño visual con identidad propia
-- Maquetación cuidada y responsive
-- Interacciones y detalles UI
-- Integración de frontend moderno en proyecto backend real
+- Maquetación cuidada y totalmente responsive
+- Interacciones frontend (filtros dinámicos, estados visuales)
+- Integración de frontend moderno en Laravel (Blade + Alpine)
+- Separación clara entre parte pública y panel de administración
 - Atención al detalle y coherencia estética
 
 ---
 
 ## 🧩 Tech Stack
 
-- HTML
-- CSS
-- JavaScript
-- Laravel
-- Vite (build y desarrollo frontend)
+- HTML5  
+- Tailwind CSS  
+- JavaScript  
+- Alpine.js  
+- Laravel  
+- Vite  
 
 ---
 
 ## 🧠 Enfoque del proyecto
 
-Este proyecto está orientado a mostrar:
+Este proyecto está orientado a demostrar:
 
-- Creatividad aplicada al código
-- Capacidad de diseñar interfaces con personalidad
-- Integración frontend dentro de Laravel (sin SPA)
-- Estructura limpia y organizada
-- Uso de herramientas modernas (Vite)
+- Pensamiento de producto y UX
+- Capacidad para diseñar interfaces con personalidad
+- Frontend integrado en backend real (sin SPA)
+- Gestión de estados visuales (disponible, reservado, entregado)
+- Estructura limpia y escalable
 
-No es un proyecto de gestión ni una aplicación CRUD, sino una **experiencia visual frontend**.
+No es una aplicación CRUD genérica, sino una **experiencia visual interactiva** con lógica real de negocio.
 
 ---
 
@@ -45,9 +47,10 @@ No es un proyecto de gestión ni una aplicación CRUD, sino una **experiencia vi
 **Frontend Developer**
 
 - Diseño visual y conceptual
-- Maquetación
-- Interacciones y experiencia de usuario
-- Integración del frontend en entorno Laravel
+- Maquetación y responsive
+- Interacciones UI (filtros, estados, feedback visual)
+- Integración frontend en entorno Laravel
+- Colaboración con backend para estados y contenido dinámico
 
 ---
 
@@ -55,21 +58,42 @@ No es un proyecto de gestión ni una aplicación CRUD, sino una **experiencia vi
 
 Este proyecto utiliza **Laravel + Vite**, por lo que requiere levantar dos procesos.
 
-### 1️⃣ Backend (Laravel)
+### Backend
 ```bash
 php artisan serve
 
-2️⃣ Frontend (Vite)
+### Frontend
 ```bash
 npm install
 npm run dev
 
-📌 Notas
+📌 Este proyecto forma parte de mi portfolio personal y está enfocado a demostrar
+capacidades frontend aplicadas a un producto real.
 
-Este proyecto forma parte de mi portfolio personal y está enfocado a demostrar:
-	•	Creatividad frontend
-	•	Diseño y estructura visual
-	•	Integración frontend-backend
-	•	Capacidad de construir experiencias más allá de interfaces estándar
-   
-© 2026 · Claudia · Portfolio
+## 🖼️ Capturas del proyecto
+
+### Página principal (Home)
+![Home - Hero](docs/images/01-home-hero.png)
+
+---
+
+### Filtros dinámicos de cachorros
+![Filtros cachorros](docs/images/02-cachorros-filtro.png)
+
+---
+
+### Contenido público
+![Contenido público](docs/images/03-public-content.png)
+
+---
+
+### Panel de administración
+![Panel admin](docs/images/04-admin-panel.png)
+
+---
+
+### Vista móvil
+![Vista móvil](docs/images/05-mobile.png)
+
+
+© 2026 · Claudia
