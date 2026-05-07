@@ -107,7 +107,7 @@
                         value="{{ old('asunto') }}"
                         placeholder="Lista de espera / Camadas / Precio / Dudas…"
                         class="w-full h-12 rounded-2xl border-gray-200 bg-slate-50 focus:border-emerald-600 focus:ring-emerald-600">
-                        git status</div>
+                        </div>
 
                         <div>
                             <label class="block text-sm font-bold text-slate-700 mb-1">Mensaje *</label>
