@@ -1,103 +1,149 @@
-# Reino Zimbabwe
+# Reino Zimbabwe — Chihuahua Kennel Platform
 
-Reino Zimbabwe es un proyecto **frontend con backend real**, diseñado como un producto completo para un criadero familiar de chihuahuas.
+Modern full-stack web platform for a responsible Chihuahua breeder brand, focused on trust, user experience, and responsive design.
 
-El proyecto pone el foco en **experiencia de usuario, diseño visual e interacciones**, integradas dentro de una arquitectura Laravel funcional, con panel de administración y estados reales.
-
----
-
-## ✨ Qué demuestra este proyecto
-
-- Diseño visual con identidad propia
-- Maquetación cuidada y totalmente responsive
-- Interacciones frontend (filtros dinámicos, estados visuales)
-- Integración de frontend moderno en Laravel (Blade + Alpine)
-- Separación clara entre parte pública y panel de administración
-- Atención al detalle y coherencia estética
+Built with Laravel, Blade Components, Tailwind CSS and responsive-first UI principles.
 
 ---
 
-## 🧩 Tech Stack
+## Overview
 
-- HTML5  
-- Tailwind CSS  
-- JavaScript  
-- Alpine.js  
-- Laravel  
-- Vite  
+Reino Zimbabwe is a modern breeding website designed to present available puppies, ethical breeding values, testimonials, and contact flows in a clean and emotionally warm experience.
 
----
-
-## 🧠 Enfoque del proyecto
-
-Este proyecto está orientado a demostrar:
-
-- Pensamiento de producto y UX
-- Capacidad para diseñar interfaces con personalidad
-- Frontend integrado en backend real (sin SPA)
-- Gestión de estados visuales (disponible, reservado, entregado)
-- Estructura limpia y escalable
-
-No es una aplicación CRUD genérica, sino una **experiencia visual interactiva** con lógica real de negocio.
+The project combines:
+- premium landing-page aesthetics,
+- responsive layouts,
+- reusable Blade architecture,
+- dynamic admin-ready structure,
+- and polished UI/UX decisions inspired by modern product websites.
 
 ---
 
-## 👩‍💻 Mi rol
-
-**Frontend Developer**
-
-- Diseño visual y conceptual
-- Maquetación y responsive
-- Interacciones UI (filtros, estados, feedback visual)
-- Integración frontend en entorno Laravel
-- Colaboración con backend para estados y contenido dinámico
-
----
-
-## 🚀 Cómo ejecutar el proyecto en local
-
-Este proyecto utiliza **Laravel + Vite**, por lo que requiere levantar dos procesos.
+## Tech Stack
 
 ### Backend
-```bash
-php artisan serve
+- Laravel
+- Blade Components
+- PHP
 
 ### Frontend
+- Tailwind CSS
+- Vite
+- Responsive-first design
+- Mobile navigation system
+- Reusable UI sections
+
+---
+
+## Features
+
+- Responsive landing page
+- Modern hero section
+- Ethical breeding presentation
+- Puppy showcase cards
+- Testimonials section
+- Contact form
+- Newsletter / waiting-list subscription
+- Mobile slide-down navigation
+- Reusable layout architecture
+- Admin authentication structure prepared
+
+---
+
+## UI/UX Focus
+
+This project was heavily focused on:
+- visual hierarchy,
+- spacing consistency,
+- premium card layouts,
+- responsive balance,
+- accessibility-friendly contrast,
+- and emotional brand presentation.
+
+The goal was to create a website that feels trustworthy, modern, and professional while maintaining warmth and personality.
+
+---
+
+## Screenshots
+
+### Home — Desktop
+![Home Desktop](public/images/screenshots/rz-home-desktop.png)
+
+### Home — Mobile
+![Home Mobile](public/images/screenshots/rz-home-mobile.png)
+
+### Responsive Showcase
+![Responsive Showcase](public/images/screenshots/rz-responsive-showcase.png)
+
+### Mobile Navigation
+![Mobile Menu](public/images/screenshots/rz-menu-mobile.png)
+
+### Ethics Section
+![Ethics Section](public/images/screenshots/rz-etica-desktop.png)
+
+### Contact — Desktop
+![Contact Desktop](public/images/screenshots/rz-contacto-desktop.png)
+
+### Contact — Mobile
+![Contact Mobile](public/images/screenshots/rz-contacto-mobile.png)
+
+### Testimonials
+![Testimonials](public/images/screenshots/rz-testimonios-desktop.png)
+
+---
+
+## Installation
+
+Clone the repository:
+
 ```bash
+git clone <repository-url>
+```
+
+## Install dependencies:
+
+```bash
+composer install
 npm install
+```
+
+## Create environment file:
+
+```bash
+cp .env.example .env
+```
+
+## Generate application key:
+
+```bash
+php artisan key:generate
+```
+
+## Run migrations
+```bash
+php artisan migrate
+```
+
+## Start development servers
+
+```bash
+php artisan serve
 npm run dev
+```
 
-📌 Este proyecto forma parte de mi portfolio personal y está enfocado a demostrar capacidades frontend aplicadas a un producto real.
+## Future Improvements
+- Admin dashboard improvements
+- Real puppy management system
+- Image galleries
+- Email notifications
+- CMS integration
+- Blog/news section
+- Real testimonial management
+- SEO optimization
+- Production deployment
 
-## 🖼️ Capturas del proyecto
+## Author
 
-### Página principal (Home)
-![Home - Hero](docs/images/01-home-hero.png)
+Developed by Claudia Aguilar
 
----
-
-### Filtros dinámicos de cachorros
-![Filtros cachorros](docs/images/02-cachorros-filtro.png)
-
----
-
-### Filtros por estado (disponible / reservado / entregado)
-![Filtros cachorros alternos](docs/images/03-cachorros-filtro2.png)
-
----
-
-### Vista móvil
-![Vista móvil](docs/images/04-mobile.png)
-
----
-
-### Contenido público completo
-![Contenido público](docs/images/05-public-content.png)
-
----
-
-### Panel de administración
-![Panel admin](docs/images/06-admin-panel.png)
-
-
-© 2026 · Claudia
+Frontend-focused developer specialized in building modern responsive web applications with strong UI/UX attention and real-world product thinking.
