@@ -4,8 +4,6 @@ Modern full-stack web platform for a responsible Chihuahua breeder brand, focuse
 
 Built with Laravel, Blade Components, Tailwind CSS and responsive-first UI principles.
 
----
-
 ## Overview
 
 Reino Zimbabwe is a modern breeding website designed to present available puppies, ethical breeding values, testimonials, and contact flows in a clean and emotionally warm experience.
@@ -16,8 +14,6 @@ The project combines:
 - reusable Blade architecture,
 - dynamic admin-ready structure,
 - and polished UI/UX decisions inspired by modern product websites.
-
----
 
 ## Tech Stack
 
@@ -33,7 +29,6 @@ The project combines:
 - Mobile navigation system
 - Reusable UI sections
 
----
 
 ## Features
 
@@ -48,7 +43,6 @@ The project combines:
 - Reusable layout architecture
 - Admin authentication structure prepared
 
----
 
 ## UI/UX Focus
 
@@ -61,8 +55,6 @@ This project was heavily focused on:
 - and emotional brand presentation.
 
 The goal was to create a website that feels trustworthy, modern, and professional while maintaining warmth and personality.
-
----
 
 ## Screenshots
 
@@ -90,7 +82,6 @@ The goal was to create a website that feels trustworthy, modern, and professiona
 ### Testimonials
 ![Testimonials](public/images/screenshots/rz-testimonios-desktop.png)
 
----
 
 ## Installation
 
@@ -100,35 +91,57 @@ Clone the repository:
 git clone <repository-url>
 ```
 
-## Install dependencies:
+## Install dependencies
 
 ```bash
 composer install
 npm install
 ```
 
-## Create environment file:
+## Create environment file
 
 ```bash
 cp .env.example .env
 ```
 
-## Generate application key:
+## Generate application key
 
 ```bash
 php artisan key:generate
 ```
 
 ## Run migrations
+
 ```bash
 php artisan migrate
 ```
 
-## Start development servers
+## Start development environment
+
+In development mode, Laravel and Vite must run simultaneously.
 
 ```bash
 php artisan serve
+```
+
+```bash
 npm run dev
+```
+
+---
+
+## Production Build
+
+For production environments, compile frontend assets using:
+
+```bash
+npm run build
+```
+
+Laravel will serve the compiled assets directly from:
+
+```text
+public/build
 ```
 
 ## Future Improvements
