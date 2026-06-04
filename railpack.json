@@ -1,5 +1,12 @@
 {
-  "provider": "php",
-  "phpVersion": "8.3",
-  "phpExtensions": ["intl", "zip", "pdo_mysql"]
+  "$schema": "https://railpack.com/schema.json",
+  "providers": ["php"],
+  "build": {
+    "packages": [
+      "php83",
+      "php83Extensions.intl",
+      "php83Extensions.zip",
+      "php83Extensions.pdo_mysql"
+    ]
+  }
 }
