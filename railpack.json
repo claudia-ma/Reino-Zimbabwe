@@ -1,0 +1,5 @@
+{
+  "provider": "php",
+  "phpVersion": "8.3",
+  "phpExtensions": ["intl", "zip", "pdo_mysql"]
+}
