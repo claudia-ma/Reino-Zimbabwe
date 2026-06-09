@@ -15,7 +15,6 @@
 
     <link rel="stylesheet" href="{{ asset('build/assets/app-F7L5piBU.css') }}">
     <script type="module" src="{{ asset('build/assets/app-obodL2tJ.js') }}"></script>
-
 </head>
 
 <body class="antialiased bg-white text-slate-900">
