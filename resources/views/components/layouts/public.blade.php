@@ -13,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('build/assets/app-F7L5piBU.css') }}">
-    <script type="module" src="{{ asset('build/assets/app-obodL2tJ.js') }}"></script>
+    <link rel="stylesheet" href="/build/assets/app-F7L5piBU.css">
+    <script type="module" src="/build/assets/app-obodL2tJ.js"></script>
 </head>
 
 <body class="antialiased bg-white text-slate-900">
